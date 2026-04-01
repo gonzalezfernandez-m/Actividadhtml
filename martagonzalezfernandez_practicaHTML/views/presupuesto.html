@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+
+  <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Presupuesto Piscinas Olympia</title>
+        <link rel="stylesheet" href="../css/style.css">
+        <link href="index.html">
+        <link rel="shortcut icon" href="../img/logo.png" type="image/x-icon">
+  </head>
+
+    <body>
+
+      <header>
+          <nav>
+              <a href="../index.html">
+                <img src="../img/logo.png" alt="logo">
+              </a>
+           <h1>Presupuestos</h1>
+              <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a class="activo" href="presupuesto.html">Presupuesto</a></li>
+                <li><a href="contactos.html">Contactos</a></li>
+              </ul>
+          </nav>
+      </header>
+        <section>
+          <table class="iconos">
+            <tr>
+             <td>
+                <img src="../img/camion.png" height="40" width="40" alt="camion"><p> Traslado gratuito.</p>
+             </td>
+             <td>
+                <img src="../img/factura.png" height="40" width="40" alt="factura"><p> Adaptamos el presupuesto a sus necesidades.</p>
+              </td>
+              <td>
+                <img src="../img/icono.png" height="40" width="40" alt="icono"><p> Garantia y atención 24 H.</p>
+              </td>
+            </tr>
+          </table>
+          <p class="parrafo_presupuesto">Estamos más cerca de poder conocernos, rellena el siguiente formulario y en poco te atenderemos.</p>
+
+          <!-- creamos un formulario con campos obligatorios-->
+            <form name="formulario"  method="post" action="envio.html">
+              Nombre:<input type="text"class="formulario" name="nombre" id="nombre" value="" required placeholder=""  minlength="4" maxlength="10">
+              Email:<input type="email" name="correo" class="formulario" id="correo"  value="" required placeholder="" maxlength="20">
+              Teléfono:<input type="tel" class="formulario" name="phone"id="phone" value="" required placeholder="" pattern="[0-9]{9}">
+              Solicita mas información:<textarea style="width:30px; height:30px;">Escribe aqui.</textarea>
+              Acepto politica de privacidad de la empresa<input type="checkbox" name="opcion" value="">
+              <input type="submit" value="Enviar">
+            </form>
+        </section>
+        <footer>
+            <p style="color:rgb(236, 255, 255)"> No dude visitarnos en C/Puesta de sol 34 local 5 ó en Av Rue Local 13.</p>
+           <p style="color: azure;"> Aviso Legal/ Acepta nuestras cookies.</p>
+           <p style="color: azure;"> Copyrigth&copy; 2025 Piscinas Olympia tiene los derechos reservados de esta página.</p>
+
+           <div style="text-align:center">
+                  <a href="http://www.facebook.com">Siguenos en Facebook.
+
+                      <img src="../img/facebook.png" alt="logo Facebook" width="30" height="30">
+                  </a>
+
+                  <a href="http://www.instagram.com">Siguenos en instagram.
+
+                    <img src="../img/instagram.jpg" alt="Logo instagram" width="30" height="30">
+                    
+                  <a>
+           </div>
+        </footer>
+    </body>
+  </html>
